@@ -1,2 +1,3 @@
-# PYTHON-Basics
-My journey in Python
+# PYTHON-BASICS
+My journey in Python.
+
