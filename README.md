@@ -12,3 +12,22 @@ This repository contains basic python programs I'm currently learning. It will g
 2. Run:
    ```bash
     python filename.py
+### 1. String & Text Processing
+- `CountUpperLower.py` – Counts the number of uppercase and lowercase letters in a string.
+- `PatientTest.py` – Example program for processing patient data (testing logic and calculations).
+
+---
+
+### 2. Data Handling & Calculations
+- `LabSetUpBudget.py` – Helps calculate and manage lab setup budget.
+- `StudentCGPA.py` – Computes CGPA for students based on scores.
+- `avgScore.py` – Calculates the average score from a set of inputs.
+
+---
+
+### **Skills Demonstrated**
+- Python basics: variables, loops, and conditionals.
+- String manipulation: counting uppercase/lowercase letters.
+- Working with lists, arrays, and basic calculations.
+- Problem-solving and logical thinking.
+- Writing reusable and readable Python code.
