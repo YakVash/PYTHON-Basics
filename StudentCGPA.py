@@ -1,5 +1,7 @@
+# Student CGPA Evaluation
 cgpa = input("Enter your CGPA: ")
 
+# Evaluate CGPA and print corresponding message
 if float(cgpa) >= 9 and float(cgpa) <= 10:
     print("Outstanding!")
 

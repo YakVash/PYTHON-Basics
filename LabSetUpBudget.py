@@ -1,6 +1,11 @@
+#Program to calculate the budget for setting up a new lab
 print("Determine cost for setting up a new lab.")
+
+#Get costs from user
 comp = float(input("Enter the cost of computer : "))
 fur = float(input("Enter the cost of furniture : "))
 lab = float(input("Enter the cost of labour cost : "))
+
+#Calculate total cost
 total_cost = comp + fur + lab
 print("Total cost for the new lab is : ", total_cost)
