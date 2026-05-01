@@ -1,33 +1,75 @@
-# PYTHON-BASICS
-My journey in Python.
-This repository contains basic python programs I'm currently learning. It will get updated as time goes by. The progress as to what I'm at or at least what level I'm currently at will be visible.
+# Python Basics
 
-## Structure
-* The filename indicates the problem.
-* Programs can be run independently.
-* Each program is written in a separate .py file.
+A growing collection of Python programs written from scratch during my MCA studies — each file is a standalone problem that demonstrates a specific concept or real-world scenario.
 
-## How to Run Python
-1. Open terminal inside the repo folder.
-2. Run:
-   ```bash
-    python filename.py
-### 1. String & Text Processing
-- `CountUpperLower.py` – Counts the number of uppercase and lowercase letters in a string.
-- `PatientTest.py` – Example program for processing patient data (testing logic and calculations).
+## About
 
----
+This repo documents my Python learning journey. Every program is named after the problem it solves, making it easy to browse. The collection grows as I learn new concepts.
 
-### 2. Data Handling & Calculations
-- `LabSetUpBudget.py` – Helps calculate and manage lab setup budget.
-- `StudentCGPA.py` – Computes CGPA for students based on scores.
-- `avgScore.py` – Calculates the average score from a set of inputs.
+## Programs
 
----
+### Data & Calculations
+Programs that process numbers, compute results, and handle real-world calculation scenarios.
 
-### **Skills Demonstrated**
-- Python basics: variables, loops, and conditionals.
-- String manipulation: counting uppercase/lowercase letters.
-- Working with lists, arrays, and basic calculations.
-- Problem-solving and logical thinking.
-- Writing reusable and readable Python code.
+| File | What it does |
+|------|-------------|
+| `BMI.py` | Calculates Body Mass Index from height and weight |
+| `StudentCGPA.py` | Computes CGPA from subject scores |
+| `avgScore.py` / `AvgMarkScoredCSE.py` / `AvgMarksCIA.py` | Average score calculators for different contexts |
+| `AvgSpeedofRunner.py` | Calculates average running speed |
+| `EmployeeSalary.py` | Employee salary computation |
+| `CellPhoneBill.py` / `InternetBill.py` | Bill calculation programs |
+| `LabSetUpBudget.py` / `office_budget.py` | Budget planning and tracking |
+| `CalculateMealOrdered.py` | Meal order cost calculator |
+
+### String & Text Processing
+| File | What it does |
+|------|-------------|
+| `CountUpperLower.py` | Counts uppercase and lowercase letters in a string |
+| `LicensePlate.py` | Validates or processes license plate formats |
+| `ValidatePAN.py` | Validates Indian PAN card number format |
+
+### Logic & Problem Solving
+| File | What it does |
+|------|-------------|
+| `TypeOfTriangle.py` | Classifies a triangle based on its sides |
+| `FARMER_AND_ITEMS_RIVER_CROSSING.py` | Classic river crossing logic puzzle |
+| `FactorFormOfGroup.py` | Factorisation problems |
+| `CommonItemsBetweenCustomers.py` | Finds common items across customer lists |
+| `scholarship_eligibility.py` | Determines scholarship eligibility based on criteria |
+| `PatientTest.py` | Processes patient test data |
+
+### Data Structures
+| File | What it does |
+|------|-------------|
+| `CapitalCities.py` | Dictionary-based capital city lookup |
+| `TELEPHONEDIRECTORY.py` | Simple telephone directory using dictionaries |
+| `OperatorListMenu.py` | Menu-driven program using lists |
+
+## How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/YakVash/PYTHON-Basics.git
+cd PYTHON-Basics
+
+# Run any program
+python FileName.py
+```
+
+No external libraries needed — all programs use Python's standard library only.
+
+## Concepts Covered
+
+- Variables, data types, and operators
+- Conditional statements and loops
+- Functions and modular code
+- String manipulation and formatting
+- Lists, dictionaries, and sets
+- Input validation and error handling
+- Logic building and problem decomposition
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
